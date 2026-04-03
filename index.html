@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niyifadeyi Joshua – Online Research & Investigation</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #e0f7fa, #f5f5f5);
+        color: #333;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 20px auto;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .profile-img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px #00acc1;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    h1 { color: #00796b; }
+    h2 { color: #004d40; margin-top: 40px; }
+    p { line-height: 1.6; margin: 10px 0; }
+    a { color: #00796b; text-decoration: none; }
+    a:hover { color: #004d40; text-decoration: underline; }
+    ul { list-style-type: square; margin-left: 20px; }
+    .card {
+        background: #f0f0f0;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+    .card h3 { margin-top: 0; color: #00695c; }
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    button.toggle-btn {
+        background: #00796b;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background 0.3s;
+    }
+    button.toggle-btn:hover { background: #004d40; }
+    .hidden { display: none; }
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        color: #777;
+        font-size: 0.9em;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <img src="profile.jpg" alt="Niyifadeyi Joshua" class="profile-img">
+    <h1>Niyifadeyi Oluwaferanmi Joshua</h1>
+    <p style="text-align:center;"><strong>Online Research & Investigation Specialist</strong></p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:niyifadeyijoshuatomiwa@gmail.com">niyifadeyijoshuatomiwa@gmail.com</a><br>
+    Phone: +2347041075314</p>
+
+    <h2>Professional Summary</h2>
+    <p>Experienced Online Research & Investigation Specialist, skilled in gathering, analyzing, and verifying data from multiple sources. Adept at transforming raw information into actionable insights. Strong attention to detail, with a passion for uncovering patterns and trends that help businesses make smarter decisions. Comfortable with complex research tasks, market trend analysis, and investigative projects requiring precision and discretion.</p>
+    <p>Committed to delivering high-quality research outputs, including detailed reports, summaries, and organized data. Strong communication skills ensure clients can easily interpret findings.</p>
+
+    <h2>Services</h2>
+    <button class="toggle-btn" onclick="toggle('services')">Show/Hide Services</button>
+    <div id="services" class="hidden">
+        <div class="card">
+            <h3>Online Research & Data Collection</h3>
+            <p>Conducting detailed research across web platforms, databases, and public records to provide accurate, verified information.</p>
+        </div>
+        <div class="card">
+            <h3>Market & Competitor Analysis</h3>
+            <p>Identifying industry trends, benchmarking competitors, and delivering actionable insights for business strategy.</p>
+        </div>
+        <div class="card">
+            <h3>Lead Generation</h3>
+            <p>Finding and verifying high-quality leads for business development and outreach campaigns.</p>
+        </div>
+        <div class="card">
+            <h3>Data Cleaning & Verification</h3>
+            <p>Ensuring collected data is accurate, organized, and ready for analysis.</p>
+        </div>
+        <div class="card">
+            <h3>Report Writing & Insights</h3>
+            <p>Compiling data into comprehensive reports that highlight key findings and actionable recommendations.</p>
+        </div>
+        <div class="card">
+            <h3>Trend Monitoring & Alerts</h3>
+            <p>Ongoing monitoring of industry and market trends to provide timely insights for decision-making.</p>
+        </div>
+    </div>
+
+    <h2>Sample Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Market Trend Analysis</h3>
+            <p>Collected top 10 competitors, product pricing, and customer reviews to identify opportunities for optimizing product strategy.</p>
+        </div>
+        <div class="card">
+            <h3>Lead Generation Campaign</h3>
+            <p>Produced 150 verified B2B leads with emails and phone numbers to support client outreach campaigns.</p>
+        </div>
+        <div class="card">
+            <h3>Competitor Benchmarking</h3>
+            <p>Analyzed competitor strengths, weaknesses, and online presence to inform client's strategic plan.</p>
+        </div>
+        <div class="card">
+            <h3>Data Verification & Cleanup</h3>
+            <p>Reviewed and cleaned large datasets to ensure accuracy and usability for research projects.</p>
+        </div>
+        <div class="card">
+            <h3>Consumer Behavior Research</h3>
+            <p>Compiled insights from surveys and online reviews to highlight emerging patterns and preferences.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Reporting Dashboard</h3>
+            <p>Created clear, visual reports summarizing trends, leads, and research findings for client presentations.</p>
+        </div>
+    </div>
+
+    <h2>Tools & Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Advanced Google Search & Boolean operators</li>
+            <li>Microsoft Excel / Google Sheets for data analysis</li>
+            <li>Notion & Google Docs for documentation</li>
+            <li>Data verification techniques & web scraping basics</li>
+            <li>Report writing & presentation</li>
+        </ul>
+    </div>
+
+    <footer>
+        This portfolio showcases my skills in online research, investigation, and data analysis for business and investigative purposes.
+    </footer>
+</div>
+
+<script>
+function toggle(id){
+    var x = document.getElementById(id);
+    if (x.classList.contains('hidden')){
+        x.classList.remove('hidden');
+    } else {
+        x.classList.add('hidden');
+    }
+}
+</script>
+</body>
+</html>
